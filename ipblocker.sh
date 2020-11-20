@@ -3,7 +3,7 @@
 
 # progs variables
 PROGNAME=`basename "$0"`
-VERSION="1.0.0"
+VERSION="1.0.1"
 IPTABLES=`which iptables`
 WGET=`which wget`
 ALL_COUNTRIES="ad ae af ag ai al am ao ap ar as at au aw az ba bb bd be bf bg bh bi bj bl bm bn bo bq br bs bt bw by bz ca cd cf cg ch ci ck cl cm cn co cr cu cv cw cy cz de dj dk dm do dz ec ee eg er es et eu fi fj fm fo fr ga gb gd ge gf gg gh gi gl gm gn gp gq gr gt gu gw gy hk hn hr ht hu id ie il im in io iq ir is it je jm jo jp ke kg kh ki km kn kp kr kw ky kz la lb lc li lk lr ls lt lu lv ly ma mc md me mf mg mh mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nc ne nf ng ni nl no np nr nu nz om pa pe pf pg ph pk pl pm pr ps pt pw py qa re ro rs ru rw sa sb sc sd se sg si sk sl sm sn so sr ss st sv sx sy sz tc td tg th tj tk tl tm tn to tr tt tv tw tz ua ug us uy uz va vc ve vg vi vn vu wf ws ye yt za zm zw"
@@ -26,7 +26,7 @@ ATTACKERS_URI="http://report.rutgers.edu/DROP/attackers"
 ATTACKERS_URI="${ATTACKERS_URI} https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt"
 ATTACKERS_URI="${ATTACKERS_URI} https://www.openbl.org/lists/base.txt"
 
-TOR_URI="http://www.dan.me.uk/torlist/?exit"
+TOR_URI="https://check.torproject.org/torbulkexitlist"
 
 #COUNTRIES_URI="http://www.ipdeny.com/ipblocks/data/countries/"
 COUNTRIES_URI="http://www.ipdeny.com/ipblocks/data/aggregated/"
